@@ -32,7 +32,7 @@ def batch_sort_iter(data, batch_size, num_epochs, padding=False, sort=True):
         for batch_num in range(num_batches_per_epoch):
             start_index = batch_num * batch_size
             end_index = min((batch_num + 1) * batch_size, data_size)
-            return to_tensor(data[start_index:end_index], padding = padding, sort = sort)
+            yield to_tensor(data[start_index:end_index], padding = padding, sort = sort)
 
 # padding and to tensor
 def to_tensor(data, padding = False, sort=True):
