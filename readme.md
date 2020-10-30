@@ -13,7 +13,7 @@ Dataset used here is WikiMovie. Note that the preprocessing scripts are borrowed
 * plot.py: plot the graph for report
 
 # Run
-* run setup\_processed\_data.sh to get the processed data
+* run setup\_processed\_data.sh to get the processed data (if the code is broken you can download it from [here](https://drive.google.com/file/d/1ZztExAcGxE_38reIVcphc167XCkEHpYI/view?usp=sharing)
 * run gen\_dict.py to generate the dictionary file
 * run gen\_sim\_data.py to generate the data for training similarity function
 * run the train\_mlp.py to train the similarity function
